@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwiftNotificationBannerView" customModule="SwiftNotificationBannerDemo" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwiftNotificationBannerView" customModule="GiveFwd" customModuleProvider="target">
             <connections>
                 <outlet property="messageLabel" destination="WUT-kj-MMm" id="hFo-g0-BTf"/>
             </connections>

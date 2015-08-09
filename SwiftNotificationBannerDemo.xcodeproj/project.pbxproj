@@ -14,7 +14,7 @@
 		FA6B91C61B7775BC00390320 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6B91C41B7775BC00390320 /* LaunchScreen.xib */; };
 		FA6B92571B77E54000390320 /* SwiftNotificationBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B92541B77E54000390320 /* SwiftNotificationBannerView.swift */; };
 		FA6B92581B77E54000390320 /* SwiftNotificationBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */; };
-		FA6B92591B77E54000390320 /* SwitNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B92561B77E54000390320 /* SwitNotificationBanner.swift */; };
+		FA6B92591B77E54000390320 /* SwiftNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B92561B77E54000390320 /* SwiftNotificationBanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		FA6B91C51B7775BC00390320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FA6B92541B77E54000390320 /* SwiftNotificationBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotificationBannerView.swift; path = SwiftNotificationBanner/SwiftNotificationBannerView.swift; sourceTree = SOURCE_ROOT; };
 		FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwiftNotificationBannerView.xib; path = SwiftNotificationBanner/SwiftNotificationBannerView.xib; sourceTree = SOURCE_ROOT; };
-		FA6B92561B77E54000390320 /* SwitNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitNotificationBanner.swift; path = SwiftNotificationBanner/SwitNotificationBanner.swift; sourceTree = SOURCE_ROOT; };
+		FA6B92561B77E54000390320 /* SwiftNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotificationBanner.swift; path = SwiftNotificationBanner/SwiftNotificationBanner.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				FA6B92541B77E54000390320 /* SwiftNotificationBannerView.swift */,
-				FA6B92561B77E54000390320 /* SwitNotificationBanner.swift */,
+				FA6B92561B77E54000390320 /* SwiftNotificationBanner.swift */,
 				FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */,
 			);
 			path = SwiftNotificationBanner;
@@ -163,7 +163,7 @@
 				FA6B91BE1B7775BC00390320 /* ViewController.swift in Sources */,
 				FA6B92571B77E54000390320 /* SwiftNotificationBannerView.swift in Sources */,
 				FA6B91BC1B7775BC00390320 /* AppDelegate.swift in Sources */,
-				FA6B92591B77E54000390320 /* SwitNotificationBanner.swift in Sources */,
+				FA6B92591B77E54000390320 /* SwiftNotificationBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

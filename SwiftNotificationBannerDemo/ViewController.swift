@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func presentNotification(sender: AnyObject) {
-        SwitNotificationBanner.presentNotification("message")
+        SwiftNotificationBanner.presentNotification("message")
     }
     
     override func prefersStatusBarHidden() -> Bool {
