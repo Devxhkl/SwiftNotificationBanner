@@ -15,9 +15,7 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        
+    @IBAction func presentNotification(sender: AnyObject) {
         SwitNotificationBanner.presentNotification("message")
     }
     
