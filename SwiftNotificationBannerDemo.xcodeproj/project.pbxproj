@@ -83,8 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				FA6B92541B77E54000390320 /* SwiftNotificationBannerView.swift */,
-				FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */,
 				FA6B92561B77E54000390320 /* SwitNotificationBanner.swift */,
+				FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */,
 			);
 			path = SwiftNotificationBanner;
 			sourceTree = "<group>";
