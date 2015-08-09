@@ -12,18 +12,10 @@
 		FA6B91C11B7775BC00390320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6B91BF1B7775BC00390320 /* Main.storyboard */; };
 		FA6B91C31B7775BC00390320 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6B91C21B7775BC00390320 /* Images.xcassets */; };
 		FA6B91C61B7775BC00390320 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6B91C41B7775BC00390320 /* LaunchScreen.xib */; };
-		FA6B91D21B7775BC00390320 /* SwiftNotificationBannerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B91D11B7775BC00390320 /* SwiftNotificationBannerDemoTests.swift */; };
+		FA6B92571B77E54000390320 /* SwiftNotificationBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B92541B77E54000390320 /* SwiftNotificationBannerView.swift */; };
+		FA6B92581B77E54000390320 /* SwiftNotificationBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */; };
+		FA6B92591B77E54000390320 /* SwitNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B92561B77E54000390320 /* SwitNotificationBanner.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FA6B91CC1B7775BC00390320 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA6B91AE1B7775BC00390320 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA6B91B51B7775BC00390320;
-			remoteInfo = SwiftNotificationBannerDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA6B91B61B7775BC00390320 /* SwiftNotificationBannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNotificationBannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +25,13 @@
 		FA6B91C01B7775BC00390320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA6B91C21B7775BC00390320 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA6B91C51B7775BC00390320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FA6B91CB1B7775BC00390320 /* SwiftNotificationBannerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNotificationBannerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA6B91D01B7775BC00390320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA6B91D11B7775BC00390320 /* SwiftNotificationBannerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNotificationBannerDemoTests.swift; sourceTree = "<group>"; };
+		FA6B92541B77E54000390320 /* SwiftNotificationBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotificationBannerView.swift; path = SwiftNotificationBanner/SwiftNotificationBannerView.swift; sourceTree = SOURCE_ROOT; };
+		FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwiftNotificationBannerView.xib; path = SwiftNotificationBanner/SwiftNotificationBannerView.xib; sourceTree = SOURCE_ROOT; };
+		FA6B92561B77E54000390320 /* SwitNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitNotificationBanner.swift; path = SwiftNotificationBanner/SwitNotificationBanner.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA6B91B31B7775BC00390320 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA6B91C81B7775BC00390320 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				FA6B91B81B7775BC00390320 /* SwiftNotificationBannerDemo */,
-				FA6B91CE1B7775BC00390320 /* SwiftNotificationBannerDemoTests */,
 				FA6B91B71B7775BC00390320 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				FA6B91B61B7775BC00390320 /* SwiftNotificationBannerDemo.app */,
-				FA6B91CB1B7775BC00390320 /* SwiftNotificationBannerDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +60,7 @@
 		FA6B91B81B7775BC00390320 /* SwiftNotificationBannerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA6B91E41B77912100390320 /* SwiftNotificationBanner */,
 				FA6B91BB1B7775BC00390320 /* AppDelegate.swift */,
 				FA6B91BD1B7775BC00390320 /* ViewController.swift */,
 				FA6B91BF1B7775BC00390320 /* Main.storyboard */,
@@ -95,21 +79,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA6B91CE1B7775BC00390320 /* SwiftNotificationBannerDemoTests */ = {
+		FA6B91E41B77912100390320 /* SwiftNotificationBanner */ = {
 			isa = PBXGroup;
 			children = (
-				FA6B91D11B7775BC00390320 /* SwiftNotificationBannerDemoTests.swift */,
-				FA6B91CF1B7775BC00390320 /* Supporting Files */,
+				FA6B92541B77E54000390320 /* SwiftNotificationBannerView.swift */,
+				FA6B92551B77E54000390320 /* SwiftNotificationBannerView.xib */,
+				FA6B92561B77E54000390320 /* SwitNotificationBanner.swift */,
 			);
-			path = SwiftNotificationBannerDemoTests;
-			sourceTree = "<group>";
-		};
-		FA6B91CF1B7775BC00390320 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA6B91D01B7775BC00390320 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = SwiftNotificationBanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,24 +109,6 @@
 			productReference = FA6B91B61B7775BC00390320 /* SwiftNotificationBannerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA6B91CA1B7775BC00390320 /* SwiftNotificationBannerDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA6B91D81B7775BC00390320 /* Build configuration list for PBXNativeTarget "SwiftNotificationBannerDemoTests" */;
-			buildPhases = (
-				FA6B91C71B7775BC00390320 /* Sources */,
-				FA6B91C81B7775BC00390320 /* Frameworks */,
-				FA6B91C91B7775BC00390320 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA6B91CD1B7775BC00390320 /* PBXTargetDependency */,
-			);
-			name = SwiftNotificationBannerDemoTests;
-			productName = SwiftNotificationBannerDemoTests;
-			productReference = FA6B91CB1B7775BC00390320 /* SwiftNotificationBannerDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +120,6 @@
 				TargetAttributes = {
 					FA6B91B51B7775BC00390320 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					FA6B91CA1B7775BC00390320 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = FA6B91B51B7775BC00390320;
 					};
 				};
 			};
@@ -182,7 +137,6 @@
 			projectRoot = "";
 			targets = (
 				FA6B91B51B7775BC00390320 /* SwiftNotificationBannerDemo */,
-				FA6B91CA1B7775BC00390320 /* SwiftNotificationBannerDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,15 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6B91C11B7775BC00390320 /* Main.storyboard in Resources */,
+				FA6B92581B77E54000390320 /* SwiftNotificationBannerView.xib in Resources */,
 				FA6B91C61B7775BC00390320 /* LaunchScreen.xib in Resources */,
 				FA6B91C31B7775BC00390320 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA6B91C91B7775BC00390320 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,27 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6B91BE1B7775BC00390320 /* ViewController.swift in Sources */,
+				FA6B92571B77E54000390320 /* SwiftNotificationBannerView.swift in Sources */,
 				FA6B91BC1B7775BC00390320 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA6B91C71B7775BC00390320 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA6B91D21B7775BC00390320 /* SwiftNotificationBannerDemoTests.swift in Sources */,
+				FA6B92591B77E54000390320 /* SwitNotificationBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA6B91CD1B7775BC00390320 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA6B91B51B7775BC00390320 /* SwiftNotificationBannerDemo */;
-			targetProxy = FA6B91CC1B7775BC00390320 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA6B91BF1B7775BC00390320 /* Main.storyboard */ = {
@@ -356,40 +290,6 @@
 			};
 			name = Release;
 		};
-		FA6B91D91B7775BC00390320 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftNotificationBannerDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNotificationBannerDemo.app/SwiftNotificationBannerDemo";
-			};
-			name = Debug;
-		};
-		FA6B91DA1B7775BC00390320 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftNotificationBannerDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNotificationBannerDemo.app/SwiftNotificationBannerDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,14 +309,7 @@
 				FA6B91D71B7775BC00390320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FA6B91D81B7775BC00390320 /* Build configuration list for PBXNativeTarget "SwiftNotificationBannerDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA6B91D91B7775BC00390320 /* Debug */,
-				FA6B91DA1B7775BC00390320 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
